@@ -1,0 +1,86 @@
+.fleet {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../../image/fleet/fleetBac.png) no-repeat;
+    background-size: 17%;
+    background-position: 80% 0;
+}
+.fleetText {
+    width: 40%;
+    margin-left: 6%;
+}
+.fleetText-title {
+    color: #FCFCFC;
+    font-size: 68px;
+}
+.fleetLine {
+    width: 164px;
+    height: 8px;
+    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+    margin-top: 10px;
+}
+.fleetText-text1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FCFCFC;
+    margin-top: 40px;
+}
+.fleetText-text2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FCFCFC;
+    margin-top: 60px;
+}
+.fleetImg {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    right: 10%;
+}
+
+@media screen and (max-width: 900px) {
+    .fleet {
+        height: 60vh;
+        display: block;
+        align-items: center;
+        background: url(../../image/fleet/fleetBac.png) no-repeat;
+        background-size: 17%;
+        background-position: 80% 0;
+    }
+    .fleetText {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .fleetText-title {
+        color: #FCFCFC;
+        font-size: 28px;
+    }
+    .fleetLine {
+        width: 82px;
+        height: 4px;
+        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+        margin-top: 10px;
+        margin-left: calc((100% - 82px) / 2);
+    }
+    .fleetText-text1 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #FCFCFC;
+        margin-top: 10px;
+    }
+    .fleetText-text2 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #FCFCFC;
+        margin-top: 10px;
+    }
+    .fleetImg {
+        width: 70%;
+        height: 27%;
+        position: absolute;
+        left: 10%;
+        margin-top: 20px;
+    }
+}

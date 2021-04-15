@@ -1,0 +1,102 @@
+.economyMore {
+    height: 100vh;
+    display: flex;
+}
+.economyMoreImg {
+    width: 45%;
+    margin-left: 5%;
+}
+.economyMoreText {
+    margin-left: -6%;
+    margin-top: 12%;
+    text-align: right;
+    position: relative;
+}
+.economyMore-title {
+    font-size: 68px;
+    color: #FCFCFC;
+}
+.lineBox {
+    width: 100%;
+    position: relative;
+}
+.economyMoreLine {
+    width: 164px;
+    height: 8px;
+    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+.economyMoreText-text1 {
+    width: 683px;
+    font-weight: 500;
+    color: #CCCCDC;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
+.economyMoreText-text2 {
+    width: 683px;
+    font-weight: 500;
+    color: #CCCCDC;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 303px;
+}
+
+@media screen and (max-width: 900px) {
+    .economyMore {
+        height: 70vh;
+        display: block;
+        position: relative;
+    }
+    .economyMoreImg {
+        width: 70%;
+        position: absolute;
+        top: 100px;
+        left: 10%;
+    }
+    .economyMoreText {
+        margin-left: 0;
+        margin-top: 12%;
+        position: relative;
+        text-align: center;
+    }
+    .economyMore-title {
+        font-size: 28px;
+        color: #FCFCFC;
+    }
+    .lineBox {
+        width: 100%;
+        position: relative;
+    }
+    .economyMoreLine {
+        width: 82px;
+        height: 4px;
+        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+        margin-top: 5px;
+        position: absolute;
+        right: calc((100% - 82px) / 2);
+    }
+    .economyMoreText-text1 {
+        width: 80%;
+        font-weight: 500;
+        color: #CCCCDC;
+        font-size: 12px;
+        position: absolute;
+        right: 10%;
+        top: 60px;
+    }
+    .economyMoreText-text2 {
+        width: 80%;
+        font-weight: 500;
+        color: #CCCCDC;
+        font-size: 12px;
+        position: absolute;
+        right: 10%;
+        top: 120px;
+    }
+}

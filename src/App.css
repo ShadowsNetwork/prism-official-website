@@ -1,0 +1,32 @@
+
+.app {
+    width: 100%;
+    background: #18191C;
+}
+.menu {
+    height: 140px;
+    line-height: 100px;
+}
+.menuMobile {
+    height: 80px;
+    line-height: 60px;
+    display: none;
+}
+.logoImg {
+    width: 40%;
+}
+@media screen and (max-width: 900px){
+    .menu {
+        display: none;
+    }
+    .logoImg {
+        width: 100%;
+    }
+    .menuMobile {
+        height: 80px;
+        line-height: 60px;
+        display: block;
+    }
+}
+
+

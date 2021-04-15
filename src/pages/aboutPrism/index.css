@@ -1,0 +1,75 @@
+.aboutPrism {
+    height: 100vh;
+    background: url(../../image/prism/aboutPrismImg.png) no-repeat;
+    background-size: 24% ;
+    display: flex;
+    position: relative;
+}
+.prismText{
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    width: 45%;
+}
+.prismText-title {
+    color: #FCFCFC;
+    font-size: 68px;
+}
+.prismline {
+    width: 164px;
+    height: 8px;
+    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+    margin-top: 20px;
+}
+.prismText-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FCFCFC;
+    margin-top: 54px;
+}
+.prismImg {
+    width: 25%;
+    position: absolute;
+    top: 22%;
+    right: 10%;
+}
+
+@media screen and (max-width: 900px) {
+    .aboutPrism {
+        height: auto;
+        background: url(../../image/prism/aboutPrismImg.png) no-repeat;
+        background-size: 70%;
+        margin-top: 0;
+        display: block;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .prismText{
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        width: 90%;
+    }
+    .prismText-title {
+        color: #FCFCFC;
+        font-size: 28px;
+    }
+    .prismline {
+        width: 82px;
+        height: 4px;
+        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+        margin-top: 5px;
+    }
+    .prismText-text {
+        font-size: 12px;
+        font-weight: 500;
+        color: #FCFCFC;
+        margin-top: 10px;
+    }
+    .prismImg {
+        width: 60%;
+        position: static;
+        margin-top: 80%;
+        margin-left: 20%;
+    }
+}

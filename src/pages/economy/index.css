@@ -1,0 +1,68 @@
+.economy {
+    height: 100vh;
+    background-image: radial-gradient(300px circle,#2A233D, #18191C);
+    margin-top: 100px;
+}
+.economy-title {
+    text-align: center;
+    font-size: 68px;
+    color: #FCFCFC;
+}
+.economyLine {
+    width: 164px;
+    height: 8px;
+    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+    margin-top: 20px;
+    margin-left: calc((100% - 164px) / 2);
+    margin-bottom: 32px;
+}
+.economy-text {
+    font-size: 24px;
+    color: #FCFCFC;
+    text-align: center;
+}
+.economyImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}
+.economyImg > img {
+    width: 35%;
+}
+
+@media screen and (max-width: 900px) {
+    .economy {
+        height: auto;
+        background-image: radial-gradient(80px circle,#2A233D, #18191C);
+        margin-top: 100px;
+    }
+    .economy-title {
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        color: #FCFCFC;
+    }
+    .economyLine {
+        width: 82px;
+        height: 4px;
+        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+        margin-top: 10px;
+        margin-left: calc((100% - 82px) / 2);
+        margin-bottom: 10px;
+    }
+    .economy-text {
+        font-size: 12px;
+        color: #FCFCFC;
+        text-align: center;
+    }
+    .economyImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .economyImg > img {
+        width: 70%;
+    }
+}

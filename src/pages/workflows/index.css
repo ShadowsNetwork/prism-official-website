@@ -1,0 +1,215 @@
+.workflows {
+    height: 100vh;
+    background: url(../../image/workflows/workflowsBac.png) no-repeat;
+    background-size: 24%;
+    position: relative;
+}
+.workflowsImg {
+    width: 40%;
+    position: absolute;
+    top: 250px;
+    left: 7%;
+    float: left;
+}
+.tab {
+    display: flex;
+}
+.tabClick {
+    width: 17%;
+    height: 10%;
+    background: url(../../image/workflows/tabClick.png);
+    line-height: 56px;
+    text-align: center;
+    color: #45F8C8;
+    font-size: 20px;
+}
+.tabUnclick {
+    width: 17%;
+    height: 10%;
+    background: url(../../image/workflows/tabUnclick.png);
+    line-height: 56px;
+    text-align: center;
+    color: #9699A3;
+    font-size: 20px;
+}
+.tabContent {
+    width: 90%;
+    margin-top: -10px;
+    z-index: 999;
+}
+.tabBox {
+    position: relative;
+}
+.tabContentText {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    font-size: 18px;
+    color: #BFBEC4;
+}
+.tabContentText > div:nth-of-type(2) {
+    margin-left: 5%;
+}
+.tabContentText > div:nth-of-type(5) {
+    margin-top: 7%;
+}
+.tabContentText > div:nth-of-type(6) {
+    margin-left: 5%;
+}
+.tabContentText > div:nth-of-type(7) {
+    margin-left: 10%;
+}
+.tabContentText > div:nth-of-type(8) {
+    margin-left: 15%;
+}
+.tabContentText > div:nth-of-type(9) {
+    margin-left: 18%;
+}
+.tabContentText > div:nth-of-type(10) {
+    margin-left: 15%;
+}
+.workflowsText {
+    margin-right: 10%;
+    margin-top: 200px;
+    float: right;
+    position: relative;
+}
+.workflows-title {
+    font-size: 68px;
+    color: #FCFCFC;
+    text-align: right;
+}
+.line {
+    width: 164px;
+    height: 8px;
+    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+    position: absolute;
+    right: 0;
+}
+.workflowsText-text > div:nth-of-type(1) {
+    width: 688px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FCFCFC;
+    margin-top: 70px;
+    position: absolute;
+    right: 0;
+}
+.workflowsText-text > div:nth-of-type(2) {
+    width: 688px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FCFCFC;
+    margin-top: 180px;
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .workflows {
+        height: 100vh;
+        background: url(../../image/workflows/workflowsBac.png) no-repeat;
+        background-size: 80%;
+        position: relative;
+    }
+    .workflowsImg {
+        width: 96%;
+        position: absolute;
+        top: 300px;
+        left: 2%;
+        float: left;
+    }
+    .tab {
+        display: flex;
+    }
+    .tabClick {
+        width: 20%;
+        background: url(../../image/workflows/tabClick.png);
+        line-height: 56px;
+        text-align: center;
+        color: #45F8C8;
+        font-size: 12px;
+    }
+    .tabUnclick {
+        width: 20%;
+        height: 10%;
+        background: url(../../image/workflows/tabUnclick.png);
+        line-height: 56px;
+        text-align: center;
+        color: #9699A3;
+        font-size: 12px;
+    }
+    .tabContent {
+        width: 100%;
+        margin-top: -10px;
+        z-index: 999;
+    }
+    .tabBox {
+        position: relative;
+    }
+    .tabContentText {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        font-size: 12px;
+        color: #BFBEC4;
+    }
+    .tabContentText > div:nth-of-type(2) {
+        margin-left: 5%;
+    }
+    .tabContentText > div:nth-of-type(5) {
+        margin-top: 7%;
+    }
+    .tabContentText > div:nth-of-type(6) {
+        margin-left: 5%;
+    }
+    .tabContentText > div:nth-of-type(7) {
+        margin-left: 10%;
+    }
+    .tabContentText > div:nth-of-type(8) {
+        margin-left: 15%;
+    }
+    .tabContentText > div:nth-of-type(9) {
+        margin-left: 18%;
+    }
+    .tabContentText > div:nth-of-type(10) {
+        margin-left: 15%;
+    }
+    .workflowsText {
+        margin-right: 10%;
+        margin-top: 0;
+        float: right;
+        position: relative;
+    }
+    .workflows-title {
+        font-size: 28px;
+        color: #FCFCFC;
+        text-align: right;
+    }
+    .line {
+        width: 82px;
+        height: 4px;
+        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
+        position: absolute;
+        right: 0;
+    }
+    .workflowsText-text > div:nth-of-type(1) {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 500;
+        color: #FCFCFC;
+        margin-top: 10px;
+        position: absolute;
+        right: 0;
+    }
+    .workflowsText-text > div:nth-of-type(2) {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 500;
+        color: #FCFCFC;
+        margin-top: 90px;
+        position: absolute;
+        right: 0;
+    }
+}
+
