@@ -1,8 +1,7 @@
 import './index.css'
 import tabContent from '../../image/workflows/tabContent.png'
-import marked from 'marked'
+import marked from "marked";
 import hljs from "highlight.js";
-import 'highlight.js/styles/monokai-sublime.css';
 const MARKDOWN_TEXT = `
 \`\`\`javascript
 let HDWalletProvider =
