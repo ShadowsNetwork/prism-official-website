@@ -34,7 +34,6 @@
 }
 .fleetImg {
     width: 40%;
-    height: 50%;
     position: absolute;
     right: 10%;
 }
@@ -78,9 +77,8 @@
     }
     .fleetImg {
         width: 70%;
-        height: 27%;
         position: absolute;
-        left: 10%;
+        left: 15%;
         margin-top: 20px;
     }
 }
