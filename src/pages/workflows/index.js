@@ -1,5 +1,30 @@
 import './index.css'
 import tabContent from '../../image/workflows/tabContent.png'
+import marked from 'marked'
+import hljs from "highlight.js";
+import 'highlight.js/styles/monokai-sublime.css';
+const MARKDOWN_TEXT = `
+\`\`\`javascript
+let HDWalletProvider =
+  require("truffle-hdwallet-provider");
+let privateKey = "[YOUR_PRIVATE_KEY]";
+et skale = "[YOUR_SKALE_CHAIN_ENDPOINT]"; 
+
+module.exports = {
+  networks: { 
+    skale: {
+      provider: () => new 
+        HDWalletProvider(privateKey, skale),
+      gasPrice: 0,
+\`\`\`
+`;
+
+marked.setOptions({
+  langPrefix: "hljs language-",
+  highlight: function (code) {
+    return hljs.highlightAuto(code, ["html", "javascript"]).value;
+  }
+});
 
 function Workflows() {
   return(
@@ -14,16 +39,7 @@ function Workflows() {
         <div className="tabBox">
           <img className="tabContent" src={tabContent}/>
           <div className="tabContentText">
-            <div>let HDWalletProvider = </div>
-            <div>require("truffle-hdwallet-provider");</div>
-            <div>let privateKey = "[YOUR_PRIVATE_KEY]"; </div>
-            <div>let skale = "[YOUR_SKALE_CHAIN_ENDPOINT]"; </div>
-            <div>module.exports = &#123;</div>
-            <div>networks: &#123;</div>
-            <div>skale: &#123;</div>
-            <div>provider: () => new</div>
-            <div>HDWalletProvider(privateKey, skale), </div>
-            <div>gasPrice: 0,</div>
+            <div className="tabContentText-text" dangerouslySetInnerHTML={{ __html: marked(MARKDOWN_TEXT) }} />
           </div>
         </div>
       </div>

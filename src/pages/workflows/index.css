@@ -41,12 +41,32 @@
     position: relative;
 }
 .tabContentText {
+    width: 70%;
     position: absolute;
     top: 8%;
     left: 10%;
     font-size: 18px;
     color: #BFBEC4;
 }
+.tabContentText-text {
+    height: 300px;
+    overflow-y: scroll;
+}
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width:8px;
+    height: 8px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background:#44F2C4;
+}
+
 .tabContentText > div:nth-of-type(2) {
     margin-left: 5%;
 }
@@ -148,11 +168,16 @@
         position: relative;
     }
     .tabContentText {
+        width: 90%;
         position: absolute;
         top: 5%;
         left: 5%;
         font-size: 12px;
         color: #BFBEC4;
+    }
+    .tabContentText-text {
+        height: 200px;
+        overflow-y: scroll;
     }
     .tabContentText > div:nth-of-type(2) {
         margin-left: 5%;
