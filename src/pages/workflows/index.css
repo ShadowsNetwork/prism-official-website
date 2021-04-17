@@ -48,15 +48,16 @@
     position: relative;
 }
 .tabContentText {
-    width: 70%;
+    width: 94%;
+    height: 100%;
     position: absolute;
-    top: 8%;
-    left: 10%;
+    top: 1%;
+    left: 3%;
     font-size: 18px;
     color: #BFBEC4;
 }
 .tabContentText-text {
-    height: 300px;
+    height: 94%;
     overflow-y: scroll;
 }
 /* 设置滚动条的样式 */
