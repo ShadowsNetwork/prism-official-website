@@ -28,19 +28,19 @@ function Foot() {
         <div/>
         <div className="footIcon">
           <div className="footIcon-item">
-            <img src={footTwitter}/>
+            <a href={"#"}><img src={footTwitter}/></a>
           </div>
           <div className="footIcon-item">
-            <img src={footGithub}/>
+            <a href={"#"}><img src={footGithub}/></a>
           </div>
           <div className="footIcon-item">
-            <img src={footFly}/>
+            <a href={"#"}><img src={footFly}/></a>
           </div>
           <div className="footIcon-item">
-            <img src={footEmail}/>
+            <a href={"#"}><img src={footEmail}/></a>
           </div>
           <div className="footIcon-item">
-            <img src={footMail}/>
+            <a href={"#"}><img src={footMail}/></a>
           </div>
         </div>
       </div>
