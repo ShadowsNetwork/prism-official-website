@@ -10,7 +10,7 @@ function Fleet() {
         </div>
         <div className="fleetLine"/>
         <div className="fleetText-text1">
-          Key elements of Web3 blockchain economies: Synthetic assets，
+          Key elements of Web3.0 blockchain economies: Synthetic assets，
           Collateralized lending，Stable coins Swaps，Payments，Insurance，
           NFT，Oracle
         </div>

@@ -6,7 +6,7 @@ function Economy() {
     <div className="economy">
       <div data-aos="fade-up">
         <div className="economy-title">
-          Web3 Blockchain Economy
+          Web3.0 Blockchain Economy
         </div>
         <div className="economyLine"/>
         <div className="economy-text">

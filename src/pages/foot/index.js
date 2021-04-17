@@ -11,7 +11,7 @@ function Foot() {
       <div className="footContent">
         <div className="footContent-text">
           <span>Prism Network is a community-based</span>
-          <span>platform that will power the Web3 economy and</span>
+          <span>platform that will power the Web3.0 economy and</span>
           <span>numerous DeFi applications.</span>
         </div>
         <div/>

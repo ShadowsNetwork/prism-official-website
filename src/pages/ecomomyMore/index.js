@@ -7,7 +7,7 @@ function EconomyMore() {
       <img className="economyMoreImg" src={economyMore} data-aos="fade-up"/>
       <div className="economyMoreText" data-aos="fade-left">
         <div className="economyMore-title">
-          Web3 Blockchain Economy
+          Web3.0 Blockchain Economy
         </div>
         <div className="lineBox">
           <div className="economyMoreLine"/>
@@ -18,7 +18,7 @@ function EconomyMore() {
         </div>
         <div className="economyMoreText-text2">
           Innovative DeFi applications are the key to transitioning
-          human societies into the Web3 economy.
+          human societies into the Web3.0 economy.
         </div>
       </div>
     </div>
