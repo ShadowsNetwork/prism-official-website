@@ -6,9 +6,9 @@ function Top() {
     <div className="top">
       <div className="topContent">
         <div className="topText" data-aos="fade-right">
-          <span className="topText-title">Scalable Web3 defi</span>
+          <span className="topText-title">Scalable Web3.0 defi</span>
           <span className="topText-title">infrastructure</span>
-          <span className="topText-text">In the future, anyone can develop innovative DeFi applications on PrismNetwork to support the Web3 blockchain economy</span>
+          <span className="topText-text">In the future, anyone can develop innovative DeFi applications on PrismNetwork to support the Web3.0 blockchain economy</span>
           <button className="topButton">Whitepaper</button>
         </div>
           <img className="topImg" src={topImg}/>
