@@ -38,7 +38,7 @@
     right: 10%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .fleet {
         height: 60vh;
         display: block;
@@ -79,6 +79,6 @@
         width: 70%;
         position: absolute;
         left: 15%;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }

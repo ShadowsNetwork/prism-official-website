@@ -47,12 +47,11 @@
 }
 .crossChainImg {
     width: 30%;
-    height: 58%;
     position: absolute;
     right: 10%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .crossChain {
         height: 70vh;
         display: block;
@@ -105,7 +104,6 @@
     }
     .crossChainImg {
         width: 50%;
-        height: 40%;
         position: absolute;
         right: 25%;
         bottom: 0;

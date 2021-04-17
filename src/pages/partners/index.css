@@ -166,7 +166,7 @@
     margin-left: 73px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .partners {
         background-image: radial-gradient(300px circle,#1C242F, #18191C);
         padding-bottom: 50px;

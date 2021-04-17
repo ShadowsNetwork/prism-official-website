@@ -19,10 +19,12 @@ function CrossChain() {
         <div className="crossChainText-text2">
           Shadows is dedicated to bringing traditional financial assets onto blockchain.
         </div>
-        <div className="crossChainBtn">
-          <span>Enter Shadows </span>
-          <RightCircleOutlined />
-        </div>
+        <a href={"http://www.shadows.link"} target="_blank">
+          <div className="crossChainBtn">
+            <span>Enter Shadows</span>
+            <RightCircleOutlined />
+          </div>
+        </a>
       </div>
       <img className="crossChainImg" src={crossChain} data-aos="fade-left"/>
     </div>

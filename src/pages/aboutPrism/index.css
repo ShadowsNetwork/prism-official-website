@@ -34,7 +34,7 @@
     right: 10%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .aboutPrism {
         height: auto;
         background: url(../../image/prism/aboutPrismImg.png) no-repeat;
@@ -43,6 +43,7 @@
         display: block;
         position: relative;
         padding-bottom: 30px;
+        margin-top: 80px;
     }
     .prismText{
         position: absolute;

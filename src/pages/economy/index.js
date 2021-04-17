@@ -17,9 +17,7 @@ function Economy() {
           main Ethernet network.
         </div>
       </div>
-      <div className="economyImg">
-        <img src={economyImg} data-aos="fade-up"/>
-      </div>
+        <img className="economyImg" src={economyImg} data-aos="fade-up"/>
     </div>
   )
 }
