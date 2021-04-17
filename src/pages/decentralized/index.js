@@ -30,9 +30,8 @@ function Decentralized() {
               </div>
               <div>High scalability</div>
               <div>
-                The standard for security in distributed systems;
-                BFT guarantees that the network can reach consensus even
-                when up to one third of participants are malicious.
+              Scalability is another key feature of Prism; there are two types of scalabilities. 
+              Prism provides a more robust infrastructure for DeFi applications through vertical and horizontal scalability.
               </div>
             </div>
           </Col>
@@ -43,9 +42,7 @@ function Decentralized() {
               </div>
               <div>Rich functions</div>
               <div>
-                Following the same model as the Internet, this
-                protocol recognizes latencies of nodes and the network, allowing
-                messages to take an indefinite period of time to deliver.
+              Prism is not only fully compatible with Ethereum, but also provides Prism Bridge to make Prism as a sidechain of other public chains. At the same time, Prism also supports the IBC protocol, which can easily communicate with the Cosmos ecosystem.
               </div>
             </div>
           </Col>
@@ -56,11 +53,9 @@ function Decentralized() {
               <div className="childImg">
                 <img src={child3}/>
               </div>
-              <div>Low barriers</div>
+              <div>High performance</div>
               <div>
-                The standard for security in distributed systems; BFT guarantees that
-                the network can reach consensus even when up to one third of
-                participants are malicious.
+              The Prism sidechain is a Layer 2 solution; it operates independently and has a greater capacity and higher transaction rates compared to the main Ethernet network. 
               </div>
             </div>
           </Col>
@@ -69,11 +64,9 @@ function Decentralized() {
               <div className="childImg">
                 <img src={child4}/>
               </div>
-              <div>High security</div>
+              <div>Cross-chain</div>
               <div>
-                Following the same model as the Internet, this
-                protocol recognizes latencies of nodes and the network, allowing
-                messages to take an indefinite period of time to deliver.
+              Prism will also develop a cross-chain protocol that is fully compatible with Ethereum, facilitating the flow of asserts among chains. This allows Prism Network to operate not only as a Polkadot parachain, but also as a side chain of any public chain such as Ethereum, BSC, HECO, all sharing a powerful ecology.
               </div>
             </div>
           </Col>
