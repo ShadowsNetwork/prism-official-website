@@ -64,9 +64,9 @@ function Decentralized() {
               <div className="childImg">
                 <img src={child4}/>
               </div>
-              <div>Cross-chain</div>
+              <div>High security</div>
               <div>
-              Prism will also develop a cross-chain protocol that is fully compatible with Ethereum, facilitating the flow of asserts among chains. This allows Prism Network to operate not only as a Polkadot parachain, but also as a side chain of any public chain such as Ethereum, BSC, HECO, all sharing a powerful ecology.
+              Prism is built on Substate, and the inherent security of the Rust language makes it difficult for Prism clients to have runtime exceptions.
               </div>
             </div>
           </Col>
