@@ -4,36 +4,43 @@
     background-size: 24%;
     position: relative;
 }
-.workflowsImg {
+.react-tabs__tab-list {
+    border-bottom: none !important;
+}
+.react-tabs {
     width: 40%;
+}
+.tabContent {
+    margin-top: -15px !important;
+}
+.workflowsImg {
+    width: 80%;
     position: absolute;
     top: 250px;
     left: 7%;
     float: left;
 }
+.react-tabs__tab--selected {
+    width: 20%;
+    background: url(../../image/workflows/tabClick.png) no-repeat !important;
+    border: none !important;
+    color: #45F8C8 !important;
+    line-height: 36px;
+    font-size: 18px;
+}
+.react-tabs__tab {
+    text-align: center;
+    width: 20%;
+    background: url(../../image/workflows/tabUnclick.png) no-repeat !important;
+    font-size: 18px;
+    line-height: 36px;
+    color: #9699A3;
+}
 .tab {
     display: flex;
 }
-.tabClick {
-    width: 19%;
-    height: 10%;
-    background: url(../../image/workflows/tabClick.png);
-    line-height: 56px;
-    text-align: center;
-    color: #45F8C8;
-    font-size: 18px;
-}
-.tabUnclick {
-    width: 19%;
-    height: 10%;
-    background: url(../../image/workflows/tabUnclick.png);
-    line-height: 56px;
-    text-align: center;
-    color: #9699A3;
-    font-size: 18px;
-}
 .tabContent {
-    width: 90%;
+    width: 100%;
     margin-top: -10px;
     z-index: 999;
 }
@@ -54,8 +61,8 @@
 }
 /* 设置滚动条的样式 */
 ::-webkit-scrollbar {
-    width:8px;
-    height: 8px;
+    width:4px;
+    height: 4px;
 }
 /* 滚动槽 */
 ::-webkit-scrollbar-track {
@@ -64,7 +71,7 @@
 /* 滚动条滑块 */
 ::-webkit-scrollbar-thumb {
     border-radius:10px;
-    background:#44F2C4;
+    background:#636e72;
 }
 
 .tabContentText > div:nth-of-type(2) {
@@ -132,32 +139,35 @@
         background-size: 80%;
         position: relative;
     }
+    .react-tabs__tab-list {
+        border-bottom: none !important;
+    }
+    .react-tabs {
+        width: 90%;
+        margin-top: 40px;
+    }
     .workflowsImg {
-        width: 96%;
+        width: 100%;
         position: absolute;
-        top: 300px;
-        left: 2%;
+        top: 250px;
+        left: 7%;
         float: left;
+    }
+    .react-tabs__tab--selected {
+        background: url(../../image/workflows/tabClick.png) no-repeat !important;
+        border: none !important;
+        color: #45F8C8 !important;
+        line-height: 26px;
+        font-size: 12px;
+    }
+    .react-tabs__tab {
+        background: url(../../image/workflows/tabUnclick.png) no-repeat !important;
+        font-size: 12px;
+        line-height: 26px;
+        color: #9699A3;
     }
     .tab {
         display: flex;
-    }
-    .tabClick {
-        width: 20%;
-        background: url(../../image/workflows/tabClick.png);
-        line-height: 56px;
-        text-align: center;
-        color: #45F8C8;
-        font-size: 12px;
-    }
-    .tabUnclick {
-        width: 20%;
-        height: 10%;
-        background: url(../../image/workflows/tabUnclick.png);
-        line-height: 56px;
-        text-align: center;
-        color: #9699A3;
-        font-size: 12px;
     }
     .tabContent {
         width: 100%;
@@ -176,7 +186,7 @@
         color: #BFBEC4;
     }
     .tabContentText-text {
-        height: 200px;
+        height: 180px;
         overflow-y: scroll;
     }
     .tabContentText > div:nth-of-type(2) {

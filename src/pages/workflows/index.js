@@ -3,6 +3,9 @@ import tabContent from '../../image/workflows/tabContent.png'
 import marked from 'marked'
 import hljs from "highlight.js";
 import 'highlight.js/styles/monokai-sublime.css';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import "react-tabs/style/react-tabs.css";
+
 const MARKDOWN_TEXT = `
 \`\`\`javascript
 let HDWalletProvider =
@@ -27,21 +30,49 @@ marked.setOptions({
 });
 
 function Workflows() {
+
   return(
     <div className="workflows">
       <div className="workflowsImg" data-aos="fade-right">
-        <div className="tab">
-          <div className="tabClick">TRUFFLE</div>
-          <div className="tabUnclick">WEB3.JS</div>
-          <div className="tabUnclick">WEB3.PY</div>
-          <div className="tabUnclick">REMIX</div>
-        </div>
-        <div className="tabBox">
-          <img className="tabContent" src={tabContent}/>
-          <div className="tabContentText">
-            <div className="tabContentText-text" dangerouslySetInnerHTML={{ __html: marked(MARKDOWN_TEXT) }} />
-          </div>
-        </div>
+        <Tabs>
+          <TabList>
+            <Tab><div className="tabClick">TRUFFLE</div></Tab>
+            <Tab><div className="tabUnclick">WEB3.JS</div></Tab>
+            <Tab><div className="tabUnclick">WEB3.PY</div></Tab>
+            <Tab><div className="tabUnclick">REMIX</div></Tab>
+          </TabList>
+
+          <TabPanel>
+            <div className="tabBox">
+              <img className="tabContent" src={tabContent}/>
+              <div className="tabContentText">
+                <div className="tabContentText-text" dangerouslySetInnerHTML={{ __html: marked(MARKDOWN_TEXT) }} />
+              </div>
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div className="tabBox">
+              <img className="tabContent" src={tabContent}/>
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div className="tabBox">
+              <img className="tabContent" src={tabContent}/>
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div className="tabBox">
+              <img className="tabContent" src={tabContent}/>
+            </div>
+          </TabPanel>
+        </Tabs>
+        {/*<div className="tab">*/}
+        {/*  <div className="tabClick">TRUFFLE</div>*/}
+        {/*  <div className="tabUnclick">WEB3.JS</div>*/}
+        {/*  <div className="tabUnclick">WEB3.PY</div>*/}
+        {/*  <div className="tabUnclick">REMIX</div>*/}
+        {/*</div>*/}
+
       </div>
       <div className="workflowsText" data-aos="fade-left">
         <div className="workflows-title">Native to your existing</div>
@@ -61,6 +92,7 @@ function Workflows() {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
