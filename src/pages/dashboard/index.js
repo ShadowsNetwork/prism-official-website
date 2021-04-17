@@ -9,6 +9,7 @@ import Fleet from "../fleet";
 import CrossChain from "../crossChain";
 import Partners from "../partners";
 import Foot from "../foot";
+import './index.css'
 
 function Dashboard() {
   return (

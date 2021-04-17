@@ -5,6 +5,7 @@
     opacity: 0.75;
     margin-top: 100px;
     position: relative;
+    font-family: "Futura Std";
 }
 .topContent {
     display: flex;
