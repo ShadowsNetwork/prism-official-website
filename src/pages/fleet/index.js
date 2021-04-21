@@ -9,12 +9,7 @@ function Fleet() {
           Prism Carrier Fleet
         </div>
         <div className="fleetLine"/>
-        <div className="fleetText-text1">
-          Key elements of Web3.0 blockchain economies: Synthetic assets，
-          Collateralized lending，Stable coins Swaps，Payments，Insurance，
-          NFT，Oracle
-        </div>
-        <div className="fleetText-text2">
+        <div className="fleetText-text">
           PSM (Prism Token) will be the nuclear power fuel for the entire Prism carrier fleet.
         </div>
       </div>

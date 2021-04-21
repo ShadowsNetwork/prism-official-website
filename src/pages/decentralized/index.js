@@ -10,15 +10,12 @@ function Decentralized() {
     <div className="decentralized">
       <div className="decentralizedText"  data-aos="fade-up">
         <div className="decentralizedText-title">
-          Decentralized
+          The Prism Core
         </div>
         <div className="decentralizedLine"/>
         <div className="decentralizedText-text">
-          Elastic blockchains are highly
-          performant, decentralized, configurable,
-          Ethereum compatible, and use the latest
-          breakthroughs in modern cryptography
-          to provide provable security.
+          Prism is an ideal infrastructure to deploy DeFi
+          applications upon.
         </div>
       </div>
       <div className="decentralized-content" data-aos="fade-up">
@@ -30,8 +27,10 @@ function Decentralized() {
               </div>
               <div>High scalability</div>
               <div>
-              Scalability is another key feature of Prism; there are two types of scalabilities. 
-              Prism provides a more robust infrastructure for DeFi applications through vertical and horizontal scalability.
+                Prism provides a more flexible
+                infrastructure for DeFi applications
+                through its vertical and horizontal
+                scalability.
               </div>
             </div>
           </Col>
@@ -42,7 +41,12 @@ function Decentralized() {
               </div>
               <div>Rich functions</div>
               <div>
-              Prism is not only fully compatible with Ethereum, but also provides Prism Bridge to make Prism as a sidechain of other public chains. At the same time, Prism also supports the IBC protocol, which can easily communicate with the Cosmos ecosystem.
+                Prism can easily operate as a
+                sidechain of any Ethereumcompatible public chain and
+                communicate with the Cosmos
+                ecosystem. This is achieved by Prism
+                EVM, Prism Bridge and the IBC
+                protocol.
               </div>
             </div>
           </Col>
@@ -55,7 +59,10 @@ function Decentralized() {
               </div>
               <div>High performance</div>
               <div>
-              The Prism sidechain is a Layer 2 solution; it operates independently and has a greater capacity and higher transaction rates compared to the main Ethernet network. 
+                Prism can perform 1000+ TPS. DeFi
+                applications deployed on Prism enjoy
+                higher transaction rates at lower gas
+                cost.
               </div>
             </div>
           </Col>
@@ -66,7 +73,10 @@ function Decentralized() {
               </div>
               <div>High security</div>
               <div>
-              Prism is built on Substate, and the inherent security of the Rust language makes it difficult for Prism clients to have runtime exceptions.
+                Prism is built on Substate, and the
+                inherent security of the Rust
+                language eliminates runtime
+                exceptions.
               </div>
             </div>
           </Col>

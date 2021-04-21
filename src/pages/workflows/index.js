@@ -185,11 +185,14 @@ function Workflows() {
         <div className="line"/>
         <div className="workflowsText-text">
           <div>
-          Prism Network is fully compatible with Ethereum, eliminating unnecessary complexity, so you can speed up dApps and smart contracts immediately without additional coding.
+            Prism is fully compatible with Ethereum. Prism EVM RPC is a protocol
+            layer that supports all tools of the Ethernet ecosystem, such as
+            MetaMask, Web3js, Etherjs, Truffle, Hardhat, etc. One can deploy DApps
+            and smart contracts immediately without additional coding.
           </div>
-          <div>
-          Prism EVM RPC is a protocol layer that supports all tools of the Ethernet ecosystem, such as MetaMask, Web3js, Etherjs, Truffle, Hardhat, etc. Thus deploying existing Dapps on Prism Network is very easy. 
-          </div>
+          {/*<div>*/}
+          {/*Prism EVM RPC is a protocol layer that supports all tools of the Ethernet ecosystem, such as MetaMask, Web3js, Etherjs, Truffle, Hardhat, etc. Thus deploying existing Dapps on Prism Network is very easy. */}
+          {/*</div>*/}
         </div>
       </div>
 

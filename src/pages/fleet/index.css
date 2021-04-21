@@ -20,13 +20,8 @@
     background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
     margin-top: 10px;
 }
-.fleetText-text1 {
-    font-size: 24px;
-    font-weight: 500;
-    color: #FCFCFC;
-    margin-top: 40px;
-}
-.fleetText-text2 {
+
+.fleetText-text {
     font-size: 24px;
     font-weight: 500;
     color: #FCFCFC;
