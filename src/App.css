@@ -18,6 +18,15 @@
 .logoImg {
     width: 60%;
 }
+.github {
+    width: 35px;
+}
+.twitter {
+    width: 35px;
+}
+.fly {
+    width: 35px;
+}
 @media screen and (max-width: 1024px){
     .menu {
         display: none;
