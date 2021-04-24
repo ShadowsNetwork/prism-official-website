@@ -15,7 +15,7 @@ function Top() {
         </div>
           <img className="topImg" src={topImg}/>
       </div>
-      <div className="top-foot">Powered By Shadows</div>
+      <div className="top-foot">Powered by Shadows</div>
     </div>
   )
 }
