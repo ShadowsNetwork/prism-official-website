@@ -2,8 +2,7 @@
     height: 100vh;
     display: flex;
     background: url(../../image/crossChain/crossChainBac.png) no-repeat;
-    background-size: 60%;
-    background-position: 100% 0;
+    background-size: 100% 100%;
     margin-top: 100px;
     position: relative;
 }
@@ -13,37 +12,36 @@
     top: 100px;
 }
 .crossChainText-title {
+    font-family: 'SourceHanSansCN-Heavy'; 
+    font-weight: bolder; 
     color: #FCFCFC;
     font-size: 68px;
 }
-.crossChainLine {
-    width: 164px;
-    height: 8px;
-    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
-    margin-top: 10px;
-}
+
 .crossChainText-text1 {
     width: 70%;
-    font-size: 24px;
-    font-weight: 500;
-    color: #FCFCFC;
+    font-family: 'SourceHanSansCN-Normal';  
+    font-size: 18px;
+    color: #999999;
     margin-top: 40px;
 }
 .crossChainText-text2 {
     width: 70%;
-    font-size: 24px;
-    font-weight: 500;
-    color: #FCFCFC;
+    font-family: 'SourceHanSansCN-Normal';  
+    font-size: 18px;
+    color: #999999;
 }
 .crossChainBtn {
+    width: 123px;
+    height: 29px;
     margin-top: 59px;
+    background-image: url(../../image/crossChain/crossChainButton.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 500px;
 }
-.crossChainBtn > span {
-    font-size: 24px;
-    color: #fff;
-}
-.crossChainBtn > span:nth-of-type(2) {
-    margin-left: 16px;
+.crossChainBtn:hover {
+    background-image: url(../../image/crossChain/crossChainButtonHover.png);
 }
 .crossChainImg {
     width: 30%;
@@ -51,13 +49,13 @@
     right: 10%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
     .crossChain {
         height: 70vh;
         display: block;
         background: url(../../image/crossChain/crossChainBac.png) no-repeat;
         background-size: 100%;
-        background-position: 50% 100%;
+        background-position: 100% 100%;
         margin-top: 100px;
         position: relative;
     }
@@ -66,46 +64,35 @@
         margin-left: 5%;
         position: absolute;
         top: 0;
-        text-align: center;
+        text-align: left;
     }
     .crossChainText-title {
         color: #FCFCFC;
         font-size: 28px;
     }
-    .crossChainLine {
-        width: 82px;
-        height: 4px;
-        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
-        margin-top: 10px;
-        margin-left: calc((100% - 82px) / 2);
-    }
+ 
     .crossChainText-text1 {
         width: 100%;
         font-size: 12px;
-        font-weight: 500;
-        color: #FCFCFC;
+        color: #999999;
         margin-top: 10px;
     }
     .crossChainText-text2 {
         width: 100%;
         font-size: 12px;
-        font-weight: 500;
-        color: #FCFCFC;
+        color: #999999;
     }
     .crossChainBtn {
         margin-top: 10px;
+         top:200px;
     }
-    .crossChainBtn > span {
-        font-size: 12px;
-        color: #fff;
-    }
-    .crossChainBtn > span:nth-of-type(2) {
-        margin-left: 5px;
-    }
+ 
     .crossChainImg {
         width: 50%;
+        display: block;
         position: absolute;
+        top:50%;
         right: 25%;
-        bottom: 0;
+       
     }
 }

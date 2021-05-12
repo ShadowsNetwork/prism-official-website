@@ -8,12 +8,11 @@ function AboutPrism() {
         <div className="prismText-title">
           What is Prism
         </div>
-        <div className="prismline"/>
         <div className="prismText-text">
-          Prism Network is based on Substrate and has high scalability and cross-chain capabilities.
-          It is also compatible with other public chain
-          ecosystems such as Ethereum and BSC. It is highly efficient, convenient
-          and secure.
+        Prism Network is developed based on substrate and has high
+        scalability and cross-chain capabilities. It is also compatible with 
+        other public chain ecosystems such as Ethereum BSC, and has
+        the characteristics of high effi-ciency, convenience, and security.
         </div>
         <div className="prismText-text">
           Developers will be able to create and deploy DeFi applications on Prism
@@ -22,7 +21,7 @@ function AboutPrism() {
           ecological users.
         </div>
       </div>
-        <img className="prismImg" src={prismImg} data-aos="fade-left"/>
+        <img className="prismImg" src={prismImg} alt="加载失败" data-aos="fade-left"/>
     </div>
   )
 }

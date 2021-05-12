@@ -1,13 +1,10 @@
-@font-face {
-    font-family: 'Futura Std';
-    src: url(./font/FuturaStdBook.otf);
-}
+
 .app {
     width: 100%;
-    background: #18191C;
+  background: black;
 }
 .menu {
-    height: 140px;
+    height: 100px;
     line-height: 100px;
 }
 .menuMobile {
@@ -18,16 +15,20 @@
 .logoImg {
     width: 60%;
 }
-.github {
-    width: 35px;
-}
+
 .twitter {
     width: 35px;
+}
+.twitter:hover{
+    content: url(./image/top/topTwitterHover.png);
 }
 .fly {
     width: 35px;
 }
-@media screen and (max-width: 1024px){
+.fly:hover{
+    content: url(./image/top/topFlyHover.png);
+}
+@media screen and (max-width: 900px){
     .menu {
         display: none;
     }

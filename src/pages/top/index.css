@@ -1,97 +1,95 @@
 .top {
-    height: 90vh;
-    background: url(../../image/top/topBac.png) no-repeat;
-    background-size: 70% 70%;
-    opacity: 0.75;
-    margin-top: 100px;
+    height: 190vh;
+    width: 100%;
     position: relative;
+
 }
 .topContent {
+    height: 120vh;
+    background:black;
+    background-image: url(../../image/top/topImg.png);
+    background-size: 70% 120%;
+    background-position:50% 70%;
+    background-repeat: no-repeat;
     display: flex;
+    justify-content: center;
+    text-align: center;
+     
 }
 .topText {
-    width: 45%;
+    width: 100%;
+    height: 75%;
     margin-left: 8%;
+    margin-top: 100px;
 }
 .topText-title {
+    font-family: 'SourceHanSansCN-Heavy';
     font-size: 68px;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     display: block;
 }
 .topText-text {
     display: block;
-    font-size: 24px;
-    font-weight: 500;
-    color: #fff;
-    margin-top: 52px;
+    font-family:'SourceHanSansCN-Normal';
+    font-size: 18px;
+    color:#999999;
+    margin: 52px auto 0;
+    width: 580px;
+    height: 31px;
+  
 }
 .topButton {
     width: 214px;
     height: 54px;
     line-height: 0;
-    background: linear-gradient(90deg, #C11FD3 0%, #3E68DD 100%);
-    border-radius: 54px;
-    color: #fff;
-    border: none;
-    font-size: 24px;
+    background-color: black;
+    background-image: url(../../image/top/topButton.png);
+    background-size: 100% 100%;
     margin-top: 75px;
+    border: none;
 }
-.topImg {
-    position: absolute;
-    top: 5%;
-    right: 0;
-    width: 50%;
+.topButton:hover{
+    background-image: url(../../image/top/topButtonHover.png);
 }
 .top-foot {
     width: 100%;
-    text-align: center;
-    color: #625D70;
-    font-size: 24px;
+    border-bottom: 1px solid #a5a3a3;
+    opacity: 30%;
     position: absolute;
-    bottom: 0;
+    bottom: 100vh;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 900px){
     .top {
-        height: auto;
-        background: url(../../image/top/topBac.png) no-repeat center;
-        background-size: 70% 70%;
+        height:133vh;
         margin-top: 0;
         position: relative;
     }
+    .topContent{
+        height: 84vh;
+    }
     .topText {
         width: 60%;
+        background-size: 70% 70%;
         margin-left: 8%;
     }
     .topText-title {
         font-size: 20px;
-        color: #fff;
+        color: #ffffff;
         display: block;
     }
     .topText-text {
+        width: 80%;
         display: block;
         font-size: 12px;
-        font-weight: 500;
-        color: #fff;
-        margin-top: 5px;
+        color: #999999;
+        margin: 5px auto 0;
     }
     .topButton {
         width: 100px;
         height: 24px;
-        line-height: 0;
-        background: linear-gradient(90deg, #C11FD3 0%, #3E68DD 100%);
-        border-radius: 54px;
-        color: #fff;
-        border: none;
-        font-size: 12px;
-        margin-top: 5px;
-    }
-    .topImg {
-        width: 40%;
-        position: absolute;
-        top: 17%;
-        right: 0;
+      
     }
     .top-foot {
         width: 100%;

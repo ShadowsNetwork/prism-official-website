@@ -12,21 +12,19 @@ function CrossChain() {
         <div className="crossChainText-title">
           that supports cross-chain
         </div>
-        <div className="crossChainLine"/>
+    
         <div className="crossChainText-text1">
           Shadows is a hub for issuing, trading, lending and borrowing derivative assets.
         </div>
         <div className="crossChainText-text2">
           Shadows is dedicated to bringing traditional financial assets onto blockchain.
         </div>
-        <a href={"http://www.shadows.link"} target="_blank">
+        <a href={"http://www.shadows.link"} target={"_blank"}>
           <div className="crossChainBtn">
-            <span>Enter Shadows</span>
-            <RightCircleOutlined />
           </div>
         </a>
       </div>
-      <img className="crossChainImg" src={crossChain} data-aos="fade-left"/>
+      <img className="crossChainImg" src={crossChain} alt="加载失败" data-aos="fade-left"/>
     </div>
   )
 }

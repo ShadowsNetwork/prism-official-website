@@ -1,29 +1,36 @@
 import './index.css'
-import { Row, Col } from 'antd';
-import child1 from '../../image/decentralized/child1.png'
-import child2 from '../../image/decentralized/child2.png'
-import child3 from '../../image/decentralized/child3.png'
-import child4 from '../../image/decentralized/child4.png'
+import {Row, Col} from 'antd';
+import 'antd/dist/antd.css';
+import Economy from "../economy";
+import EconomyMore from "../ecomomyMore";
+import Fleet from "../fleet";
+import highScalability from '../../image/decentralized/highScalability.png';
+import richFunctions from '../../image/decentralized/richFunctions.png';
+import lowBarriers from '../../image/decentralized/lowBarriers.png';
+import highSecurity from '../../image/decentralized/highSecurity.png';
 
 function Decentralized() {
   return(
     <div className="decentralized">
       <div className="decentralizedText"  data-aos="fade-up">
         <div className="decentralizedText-title">
-          The Prism Core
+        Decentralized
         </div>
-        <div className="decentralizedLine"/>
         <div className="decentralizedText-text">
-          Prism is an ideal infrastructure to deploy DeFi
-          applications upon.
+        Elastic blockchains are highly performant, decentralized, configurable,
+        Ethereum compatible, and use the latest breakthroughs in modern cryptography
+        to provide provable security.
         </div>
+        <a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/DOWSTokenomics.pdf" target={"_blank"}>
+          <button className="decentralizedButton"></button>
+       </a>
       </div>
       <div className="decentralized-content" data-aos="fade-up">
         <Row>
-          <Col xxl={12} xl={12} lg={24}>
+          <Col xxl={6} xl={6} lg={12}>
             <div className="child">
               <div className="childImg">
-                <img src={child1}/>
+                <img src={highScalability}/>
               </div>
               <div>High scalability</div>
               <div>
@@ -34,15 +41,15 @@ function Decentralized() {
               </div>
             </div>
           </Col>
-          <Col xxl={12} xl={12} lg={24}>
+          <Col xxl={6} xl={6} lg={12}>
             <div className="child">
               <div className="childImg">
-                <img src={child2}/>
+                <img src={richFunctions}/>
               </div>
               <div>Rich functions</div>
               <div>
                 Prism can easily operate as a
-                sidechain of any Ethereumcompatible public chain and
+                sidechain of any Ethereum compatible public chain and
                 communicate with the Cosmos
                 ecosystem. This is achieved by Prism
                 EVM, Prism Bridge and the IBC
@@ -50,14 +57,12 @@ function Decentralized() {
               </div>
             </div>
           </Col>
-        </Row>
-        <Row>
-          <Col xxl={12} xl={12} lg={24}>
+          <Col xxl={6} xl={6} lg={12}>
             <div className="child">
               <div className="childImg">
-                <img src={child3}/>
+                <img src={lowBarriers}/>
               </div>
-              <div>High performance</div>
+              <div>Low Barriers</div>
               <div>
                 Prism can perform 1000+ TPS. DeFi
                 applications deployed on Prism enjoy
@@ -66,10 +71,10 @@ function Decentralized() {
               </div>
             </div>
           </Col>
-          <Col xxl={12} xl={12} lg={24}>
+          <Col xxl={6} xl={6} lg={12}>
             <div className="child">
               <div className="childImg">
-                <img src={child4}/>
+                <img src={highSecurity}/>
               </div>
               <div>High security</div>
               <div>
@@ -82,6 +87,9 @@ function Decentralized() {
           </Col>
         </Row>
       </div>
+      <Economy/>
+      <EconomyMore/>
+      <Fleet/>
     </div>
   )
 }

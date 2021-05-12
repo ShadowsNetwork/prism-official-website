@@ -28,24 +28,23 @@ function Foot() {
         <div/>
         <div className="footIcon">
           <div className="footIcon-item">
-            <a href={"#"}><img src={footTwitter}/></a>
+            <a href={"https://twitter.com/shadows_defi"} taget={"_blank"}><img className="footIcon-itemimg1" src={footTwitter}/></a>
           </div>
           <div className="footIcon-item">
-            <a href={"#"}><img src={footGithub}/></a>
+            <a href={"https://github.com/ShadowsNetwork"} taget={"_blank"}><img className="footIcon-itemimg2" src={footGithub}/></a>
           </div>
           <div className="footIcon-item">
-            <a href={"#"}><img src={footFly}/></a>
+            <a href={"https://t.me/Shadows_defi"} taget={"_blank"}><img  className="footIcon-itemimg3" src={footFly}/></a>
           </div>
           <div className="footIcon-item">
-            <a href={"#"}><img src={footEmail}/></a>
+            <a href={"#"} taget={"_blank"}><img  className="footIcon-itemimg4" src={footEmail}/></a>
           </div>
           <div className="footIcon-item">
-            <a href={"#"}><img src={footMail}/></a>
+            <a href={"#"} taget={"_blank"}><img  className="footIcon-itemimg5"  src={footMail}/></a>
           </div>
         </div>
       </div>
       <div className="copyright">
-        <span>c</span>
         <span>2021 Shadows Foundation</span>
       </div>
     </div>

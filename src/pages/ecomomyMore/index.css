@@ -1,60 +1,57 @@
 .economyMore {
     height: 100vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 200px ;
+    top:200vh;
     display: flex;
-    position: relative;
-    margin-top: 200px;
 }
 .economyMoreImg {
-    width: 45%;
-    position: absolute;
-    left: 5%;
+    width: 150px;
+    height: 450px;
+    margin-left: 20%;
+  
 }
 .economyMoreText {
     text-align: right;
-    position: absolute;
-    top: 12%;
-    right: 7%;
+    position: relative;
+    margin-left: 20%;
+
 }
 .economyMore-title {
+    font-family: 'SourceHanSansCN-Heavy';
+    font-weight: bolder;
     font-size: 68px;
     color: #FCFCFC;
 }
-.lineBox {
-    width: 100%;
-    position: relative;
-}
-.economyMoreLine {
-    width: 164px;
-    height: 8px;
-    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
-    margin-top: 20px;
-    position: absolute;
-    right: 0;
-}
+
 .economyMoreText-text1 {
     width: 683px;
-    font-weight: 500;
-    color: #CCCCDC;
-    font-size: 24px;
+    font-family: 'SourceHanSansCN-Normal';
+    color: #999999;
+    font-size: 18px;
     position: absolute;
     right: 0;
     top: 180px;
+    margin-top: 120px;
 }
 .economyMoreText-text2 {
     width: 683px;
-    font-weight: 500;
-    color: #CCCCDC;
-    font-size: 24px;
+    font-family: 'SourceHanSansCN-Normal';
+    color: #999999;
+    font-size: 18px;
     position: absolute;
     right: 0;
-    top: 303px;
+    top: 383px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
     .economyMore {
         height: 70vh;
+        width: 100%;
         display: block;
-        position: relative;
+        position: absolute;
+        top:140vh;
     }
     .economyMoreImg {
         width: 70%;
@@ -75,18 +72,9 @@
         width: 100%;
         position: relative;
     }
-    .economyMoreLine {
-        width: 82px;
-        height: 4px;
-        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
-        margin-top: 5px;
-        position: absolute;
-        right: calc((100% - 82px) / 2);
-    }
+
     .economyMoreText-text1 {
         width: 80%;
-        font-weight: 500;
-        color: #CCCCDC;
         font-size: 12px;
         position: absolute;
         right: 10%;
@@ -94,8 +82,6 @@
     }
     .economyMoreText-text2 {
         width: 80%;
-        font-weight: 500;
-        color: #CCCCDC;
         font-size: 12px;
         position: absolute;
         right: 10%;

@@ -1,7 +1,10 @@
 .workflows {
     height: 100vh;
-    background: url(../../image/workflows/workflowsBac.png) no-repeat;
-    background-size: 24%;
+    background: black;
+    background-image: url(../../image/workflows/workflowslight.png);
+    background-repeat: no-repeat;
+    background-size: 50% 40%;
+    background-position: center center;
     position: relative;
 }
 .react-tabs__tab-list {
@@ -11,7 +14,8 @@
     width: 40%;
 }
 .tabContent {
-    margin-top: -15px !important;
+    margin-top: -190px !important;
+    pointer-events: none;
 }
 .workflowsImg {
     width: 80%;
@@ -22,57 +26,63 @@
 }
 .react-tabs__tab--selected {
     width: 20%;
-    background: url(../../image/workflows/tabClick.png) no-repeat !important;
+    background: none !important;
     border: none !important;
-    color: #45F8C8 !important;
-    line-height: 36px;
-    font-size: 18px;
+    color: #0000FF !important;
+    font-size: 20px;
+    line-height: 48px;
+ 
 }
 .react-tabs__tab {
     text-align: center;
     width: 20%;
-    background: url(../../image/workflows/tabUnclick.png) no-repeat !important;
-    font-size: 18px;
-    line-height: 36px;
-    color: #9699A3;
+    /* background: url(../../image/workflows/tabUnclick.png) no-repeat !important; */
+    font-size: 20px;
+    line-height: 48px;
+    color: #999999;
 }
 .tab {
     display: flex;
 }
 .tabContent {
-    width: 100%;
+    width: 105%;
     margin-top: -10px;
     z-index: 999;
 }
 .tabBox {
     position: relative;
+    
 }
 .tabContentText {
-    width: 94%;
-    height: 100%;
+    width: 76%;
+    height: 94%;
     position: absolute;
-    top: 1%;
-    left: 3%;
+    top: 3%;
+    left: 8%;
     font-size: 18px;
-    color: #BFBEC4;
+    color: #999999;
 }
 .tabContentText-text {
     height: 94%;
+    width: 90%;
     overflow-y: scroll;
 }
 /* 设置滚动条的样式 */
 ::-webkit-scrollbar {
     width:4px;
     height: 4px;
+    offset: 10px;
 }
 /* 滚动槽 */
 ::-webkit-scrollbar-track {
-    border-radius:10px;
+    border-radius:20px;
+   
 }
 /* 滚动条滑块 */
 ::-webkit-scrollbar-thumb {
-    border-radius:10px;
-    background:#636e72;
+    border-radius:20px;
+    background:#BFBEC4;
+
 }
 
 .tabContentText > div:nth-of-type(2) {
@@ -96,6 +106,19 @@
 .tabContentText > div:nth-of-type(10) {
     margin-left: 15%;
 }
+.workflowsButton {
+    width: 69px;
+    height: 29px;
+    line-height: 0;
+    background-color: black;
+    background-image: url(../../image/workflows/workflowsButton.png);
+    background-size: 100% 100%;
+    margin-top: 21px;
+    border: none;
+}
+.workflowsButton:hover{
+    background-image: url(../../image/workflows/workflowsButtonHover.png);
+}
 .workflowsText {
     margin-right: 7%;
     margin-top: 200px;
@@ -103,42 +126,45 @@
     position: relative;
 }
 .workflows-title {
+    font-family: 'SourceHanSansCN-Heavy';
+    font-weight: bolder;
     font-size: 68px;
     color: #FCFCFC;
     text-align: right;
 }
-.line {
-    width: 164px;
-    height: 8px;
-    background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
-    position: absolute;
-    right: 0;
-}
+
 .workflowsText-text > div:nth-of-type(1) {
-    width: 688px;
+    width: 580px;
+    font-family:'SourceHanSansCN-Normal';  
     font-size: 18px;
-    font-weight: 500;
-    color: #FCFCFC;
+    text-align: right;
+    color: #999999;
     margin-top: 70px;
     position: absolute;
     right: 0;
 }
 .workflowsText-text > div:nth-of-type(2) {
-    width: 688px;
+    width: 580px;
+    font-family:'SourceHanSansCN-Normal';  
     font-size: 18px;
-    font-weight: 500;
-    color: #FCFCFC;
+    text-align: right;
+    color:#999999;
     margin-top: 180px;
     position: absolute;
     right: 0;
 }
-
-@media screen and (max-width: 1024px) {
+.workflows-foot {
+    width: 100%;
+    border-bottom: 1px solid #a5a3a3;
+    opacity: 30%;
+    position: absolute;
+    bottom:-73px;
+ 
+}
+@media screen and (max-width: 900px) {
     .workflows {
-        height: 100vh;
-        background: url(../../image/workflows/workflowsBac.png) no-repeat;
-        background-size: 80%;
-        position: relative;
+        height: 70vh;
+        top:40vh;
     }
     .react-tabs__tab-list {
         border-bottom: none !important;
@@ -148,24 +174,24 @@
         margin-top: 40px;
     }
     .workflowsImg {
-        width: 100%;
+        width: 60%;
         position: absolute;
-        top: 250px;
+        top:0;
         left: 7%;
         float: left;
     }
     .react-tabs__tab--selected {
-        background: url(../../image/workflows/tabClick.png) no-repeat !important;
+        background: black!important;
         border: none !important;
-        color: #45F8C8 !important;
+        color: #0000FF !important;
         line-height: 26px;
         font-size: 12px;
     }
     .react-tabs__tab {
-        background: url(../../image/workflows/tabUnclick.png) no-repeat !important;
+        background:  black !important;
         font-size: 12px;
         line-height: 26px;
-        color: #9699A3;
+        color: #999999;
     }
     .tab {
         display: flex;
@@ -222,18 +248,10 @@
         color: #FCFCFC;
         text-align: right;
     }
-    .line {
-        width: 82px;
-        height: 4px;
-        background: linear-gradient(to right,#01F7AB,#0ABCFA,#7E58E3,#E633B4,#FBD560);
-        position: absolute;
-        right: 0;
-    }
     .workflowsText-text > div:nth-of-type(1) {
         width: 100%;
         font-size: 12px;
-        font-weight: 500;
-        color: #FCFCFC;
+        color: #999999;
         margin-top: 10px;
         position: absolute;
         right: 0;
@@ -241,9 +259,8 @@
     .workflowsText-text > div:nth-of-type(2) {
         width: 100%;
         font-size: 12px;
-        font-weight: 500;
-        color: #FCFCFC;
-        margin-top: 90px;
+        color: #999999;
+        margin-top: 120px;
         position: absolute;
         right: 0;
     }

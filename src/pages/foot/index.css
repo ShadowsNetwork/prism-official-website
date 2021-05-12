@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     height: 294px;
-    background: #202125;
+    background: black;
     position: relative;
     text-align: center;
 }
@@ -22,8 +22,9 @@
 }
 .footContent-text > span {
     display: block;
-    color: #FCFCFC;
-    font-size: 40px;
+    color: #999999;
+    font-family: 'SourceHanSansCN-Normal';
+    font-size: 18px;
 }
 .footContentLine {
     width: 100%;
@@ -67,7 +68,7 @@
     width: 100%;
     height: 294px;
     display: flex;
-    background: #202125;
+    background: black;
     position: relative;
 }
 .footContentTo > div:nth-of-type(1) {
@@ -96,6 +97,21 @@
     width: 100%;
     z-index: 1;
 }
+.footIcon-itemimg1:hover{
+    content: url(../../image/foot/footTwitterHover.png);
+}
+.footIcon-itemimg2:hover{
+    content: url(../../image/foot/footGithubHover.png);
+}
+.footIcon-itemimg3:hover{
+    content: url(../../image/foot/footFlyHover.png);
+}
+.footIcon-itemimg4:hover{
+    content: url(../../image/foot/footEmailHover.png);
+}
+.footIcon-itemimg5:hover{
+    content: url(../../image/foot/footMailHover.png);
+}
 .copyright {
     width: 100%;
     display: flex;
@@ -103,24 +119,15 @@
     justify-content: center;
     margin-top: 50px;
 }
-.copyright > span:nth-of-type(1) {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border: 1px solid #434650;
-    border-radius: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #434650;
-}
-.copyright > span:nth-of-type(2) {
+
+.copyright > span {
+    font-family: 'SourceHanSansCN-Normal';  
     font-size: 18px;
-    color: #434650;
+    color: #999999;
     margin-left: 15px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
     .foot {
         padding-bottom: 25px;
     }
@@ -129,7 +136,6 @@
         align-items: center;
         justify-content: center;
         height: 80px;
-        background: #202125;
         position: relative;
         text-align: center;
     }
@@ -145,7 +151,6 @@
     }
     .footContent-text > span {
         display: block;
-        color: #FCFCFC;
         font-size: 12px;
     }
     .footContentLine {
@@ -191,7 +196,7 @@
         width: 100%;
         height: 80px;
         display: flex;
-        background: #202125;
+    
         position: relative;
     }
     .footContentTo > div:nth-of-type(1) {
@@ -227,20 +232,10 @@
         justify-content: center;
         margin-top: 25px;
     }
-    .copyright > span:nth-of-type(1) {
-        display: inline-block;
-        width: 14px;
-        height: 14px;
-        border: 1px solid #434650;
-        border-radius: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #434650;
-    }
-    .copyright > span:nth-of-type(2) {
-        font-size: 14px;
-        color: #434650;
+  
+    .copyright > span {
+        font-size: 12px;
+        color: #999999;
         margin-left: 15px;
     }
 }

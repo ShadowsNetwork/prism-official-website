@@ -6,11 +6,21 @@ function Fleet() {
     <div className="fleet">
       <div className="fleetText" data-aos="fade-right">
         <div className="fleetText-title">
-          Prism Carrier Fleet
+          Prism Carrier 
         </div>
-        <div className="fleetLine"/>
+        <div className="fleetText-title">
+         Fleet
+        </div>
+    
         <div className="fleetText-text">
-          PSM (Prism Token) will be the nuclear power fuel for the entire Prism carrier fleet.
+         Key elements of Web3 blockchain economies:
+         Synthetic assets，Collateralized lending，
+         Stable coinsSwaps，Payments，Insurance，
+         NFT，Oracle
+        </div>
+        <div className="fleetText-text">
+         PSM (Prism Token) will be the nuclear power 
+         fuel for the entire Prism carrier fleet.
         </div>
       </div>
       <img className="fleetImg" src={fleetImg} data-aos="fade-left"/>

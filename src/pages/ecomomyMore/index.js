@@ -7,10 +7,10 @@ function EconomyMore() {
       <img className="economyMoreImg" src={economyMore} data-aos="fade-up"/>
       <div className="economyMoreText" data-aos="fade-left">
         <div className="economyMore-title">
-          Web3.0 Blockchain Economy
+          Web3 Blockchain
         </div>
-        <div className="lineBox">
-          <div className="economyMoreLine"/>
+        <div className="economyMore-title">
+         Economy
         </div>
         <div className="economyMoreText-text1">
           More than ever, people are demanding freedom, privacy,

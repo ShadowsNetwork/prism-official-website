@@ -8,16 +8,19 @@ function Economy() {
         <div className="economy-title">
           Prism Sidechain
         </div>
-        <div className="economyLine"/>
         <div className="economy-text">
-          The Prism sidechain is one of the independent Layer 2 solutions.
+          The Prism sidechain is one of 
         </div>
         <div className="economy-text">
-          Prism has a greater capacity and higher transaction speeds than the
-          main Ethernet network.
+         the independent Layer 2 solutions.
+        </div>
+        <div className="economy-text">
+          Prism has a greater capacity and higher transaction 
+          </div>
+        <div className="economy-text">
+          speeds than the main Ethernet network.
         </div>
       </div>
-        <img className="economyImg" src={economyImg} data-aos="fade-up"/>
     </div>
   )
 }
