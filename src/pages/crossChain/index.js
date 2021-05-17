@@ -24,7 +24,7 @@ function CrossChain() {
           </div>
         </a>
       </div>
-      <img className="crossChainImg" src={crossChain} alt="加载失败" data-aos="fade-left"/>
+      {/*<img className="crossChainImg" src={crossChain} alt="加载失败" data-aos="fade-left"/>*/}
     </div>
   )
 }

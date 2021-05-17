@@ -23,7 +23,7 @@ function Fleet() {
          fuel for the entire Prism carrier fleet.
         </div>
       </div>
-      <img className="fleetImg" src={fleetImg} data-aos="fade-left"/>
+      <img className="fleetImg" src={fleetImg} data-aos="fade-up"/>
     </div>
   )
 }

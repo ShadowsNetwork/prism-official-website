@@ -4,7 +4,7 @@ import prismImg from '../../image/prism/prismImg.png'
 function AboutPrism() {
   return(
     <div className="aboutPrism">
-      <div className="prismText" data-aos="fade-right">
+      <div className="prismText" data-aos="fade-up">
         <div className="prismText-title">
           What is Prism
         </div>
@@ -21,7 +21,7 @@ function AboutPrism() {
           ecological users.
         </div>
       </div>
-        <img className="prismImg" src={prismImg} alt="加载失败" data-aos="fade-left"/>
+        <img className="prismImg" src={prismImg} alt="加载失败" data-aos="fade-up"/>
     </div>
   )
 }

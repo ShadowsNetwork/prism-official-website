@@ -18,14 +18,14 @@
     pointer-events: none;
 }
 .workflowsImg {
-    width: 80%;
+    width: 1400px;
     position: absolute;
     top: 250px;
     left: 7%;
     float: left;
 }
 .react-tabs__tab--selected {
-    width: 20%;
+    width: 21%;
     background: none !important;
     border: none !important;
     color: #0000FF !important;
@@ -35,7 +35,7 @@
 }
 .react-tabs__tab {
     text-align: center;
-    width: 20%;
+    width: 21%;
     /* background: url(../../image/workflows/tabUnclick.png) no-repeat !important; */
     font-size: 20px;
     line-height: 48px;
@@ -107,8 +107,8 @@
     margin-left: 15%;
 }
 .workflowsButton {
-    width: 69px;
-    height: 29px;
+    width: 99px;
+    height: 39px;
     line-height: 0;
     background-color: black;
     background-image: url(../../image/workflows/workflowsButton.png);
@@ -159,28 +159,28 @@
     opacity: 30%;
     position: absolute;
     bottom:-73px;
- 
 }
 @media screen and (max-width: 900px) {
     .workflows {
-        height: 70vh;
-        top:40vh;
+        height: 800px;
+        top:400px;
     }
     .react-tabs__tab-list {
         border-bottom: none !important;
     }
     .react-tabs {
-        width: 90%;
-        margin-top: 40px;
+        width: 100%;
+        position: absolute;
     }
     .workflowsImg {
-        width: 60%;
+        width: 350px;
         position: absolute;
-        top:0;
-        left: 7%;
+        top:100px;
+        left: calc((100% - 350px) / 2);
         float: left;
     }
     .react-tabs__tab--selected {
+        width: 19%;
         background: black!important;
         border: none !important;
         color: #0000FF !important;
@@ -188,6 +188,7 @@
         font-size: 12px;
     }
     .react-tabs__tab {
+        width: 19%;
         background:  black !important;
         font-size: 12px;
         line-height: 26px;
@@ -198,16 +199,16 @@
     }
     .tabContent {
         width: 100%;
-        margin-top: -10px;
+        margin-top: -120px !important;
         z-index: 999;
     }
     .tabBox {
         position: relative;
     }
     .tabContentText {
-        width: 90%;
+        width: 78%;
         position: absolute;
-        top: 5%;
+        top: 0;
         left: 5%;
         font-size: 12px;
         color: #BFBEC4;
@@ -237,32 +238,55 @@
     .tabContentText > div:nth-of-type(10) {
         margin-left: 15%;
     }
+    .workflowsButton {
+        width: 60px;
+        height: 25px;
+        line-height: 0;
+        background-color: black;
+        background-image: url(../../image/workflows/workflowsButton.png);
+        background-size: 100% 100%;
+        margin-top: 301px;
+        border: none;
+    }
+    .workflowsButton:hover{
+        background-image: url(../../image/workflows/workflowsButtonHover.png);
+    }
     .workflowsText {
-        margin-right: 10%;
+        width: 100%;
+        margin-right: 0;
         margin-top: 0;
-        float: right;
-        position: relative;
+        position: absolute;
+        top: 450px;
     }
     .workflows-title {
         font-size: 28px;
         color: #FCFCFC;
-        text-align: right;
+        text-align: center;
     }
     .workflowsText-text > div:nth-of-type(1) {
-        width: 100%;
+        width: 90%;
         font-size: 12px;
         color: #999999;
         margin-top: 10px;
-        position: absolute;
-        right: 0;
+        margin-left: 5%;
+        position: static;
+        text-align: center;
     }
     .workflowsText-text > div:nth-of-type(2) {
-        width: 100%;
+        width: 90%;
         font-size: 12px;
         color: #999999;
-        margin-top: 120px;
+        margin-top: 10px;
+        margin-left: 5%;
+        position: static;
+        text-align: center;
+    }
+    .workflows-foot {
+        width: 100%;
+        border-bottom: 1px solid #a5a3a3;
+        opacity: 30%;
         position: absolute;
-        right: 0;
+        bottom: 0;
     }
 }
 

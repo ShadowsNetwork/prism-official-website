@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 294px;
+    height: 240px;
     background: black;
     position: relative;
     text-align: center;
@@ -26,47 +26,9 @@
     font-family: 'SourceHanSansCN-Normal';
     font-size: 18px;
 }
-.footContentLine {
-    width: 100%;
-    height: 1px;
-    background: #505667;
-    display: flex;
-}
-.footContentLine > div {
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    background: #06D4DA;
-    z-index: 1;
-}
-.footContentLine > div:nth-of-type(1) {
-    margin-left: 248px;
-    position: relative;
-    top: -6px;
-}
-.footContentLine > div:nth-of-type(2) {
-    margin-left: calc((100% - 556px) / 4);
-    position: relative;
-    top: -6px;
-}
-.footContentLine > div:nth-of-type(3) {
-    margin-left: calc((100% - 556px) / 4);
-    position: relative;
-    top: -6px;
-}
-.footContentLine > div:nth-of-type(4) {
-    margin-left: calc((100% - 562px) / 4);
-    position: relative;
-    top: -6px;
-}
-.footContentLine > div:nth-of-type(5) {
-    margin-left: calc((100% - 556px) / 4);
-    position: relative;
-    top: -6px;
-}
 .footContentTo {
     width: 100%;
-    height: 294px;
+    height: 94px;
     display: flex;
     background: black;
     position: relative;
@@ -82,16 +44,16 @@
 }
 .footIcon {
     position: absolute;
-    left: calc((100% - 515px) / 2);
-    top: calc((100% - 63px) / 2);
+    left: calc((100% - 375px) / 2);
+    top: 0
 }
 .footIcon-item {
     float: left;
-    width: 63px;
-    height: 63px;
+    width: 43px;
+    height: 43px;
 }
 .footIcon-item:nth-of-type(2), .footIcon-item:nth-of-type(3), .footIcon-item:nth-of-type(4), .footIcon-item:nth-of-type(5){
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .footIcon-item > a > img {
     width: 100%;

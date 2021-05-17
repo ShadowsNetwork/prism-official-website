@@ -1,4 +1,31 @@
-
+@font-face {
+    font-family: 'SourceHanSansCN-Bold';
+    src: url(./font/SourceHanSansCN-Bold.otf);
+}
+@font-face {
+    font-family:'SourceHanSansCN-ExtraLight';
+    src: url(./font/SourceHanSansCN-ExtraLight.otf);
+}
+@font-face {
+    font-family: 'SourceHanSansCN-Heavy';
+    src: url(./font/SourceHanSansCN-Heavy.otf);
+}
+@font-face {
+    font-family:'SourceHanSansCN-Light';
+    src: url(./font/SourceHanSansCN-Light.otf);
+}
+@font-face {
+    font-family: 'SourceHanSansCN-Medium';
+    src: url(./font/SourceHanSansCN-Medium.otf);
+}
+@font-face {
+    font-family:'SourceHanSansCN-Normal';
+    src: url(./font/SourceHanSansCN-ExtraLight.otf);
+}
+@font-face {
+    font-family: 'SourceHanSansCN-Regular';
+    src: url(./font/SourceHanSansCN-Regular.otf);
+}
 .app {
     width: 100%;
   background: black;
@@ -6,11 +33,17 @@
 .menu {
     height: 100px;
     line-height: 100px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'SourceHanSansCN-Bold';
 }
 .menuMobile {
     height: 80px;
     line-height: 60px;
     display: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'SourceHanSansCN-Bold';
 }
 .logoImg {
     width: 60%;
@@ -31,6 +64,7 @@
 @media screen and (max-width: 900px){
     .menu {
         display: none;
+        font-size: 12px;
     }
     .logoImg {
         width: 100%;

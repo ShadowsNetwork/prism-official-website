@@ -1,6 +1,5 @@
 .aboutPrism {
-    height: 100vh;
-    display: flex;
+    height: 700px;
     position: relative;
     margin-top: -30vh;
 }
@@ -29,7 +28,7 @@
     width: 40%;
     position: absolute;
     top: 4%;
-    right: 15%;
+    right: 10%;
 }
 
 @media screen and (max-width: 900px) {
@@ -60,9 +59,9 @@
         margin-top: 10px;
     }
     .prismImg {
-        width: 60%;
+        width: 70%;
         position: static;
-        margin-top: 200px;
-        margin-left: 20%;
+        margin-top: 230px;
+        margin-left: 15%;
     }
 }

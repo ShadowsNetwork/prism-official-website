@@ -20,18 +20,24 @@ function App() {
         <Row>
           <Col span={2}/>
           <Col span={4}><a href={""}><img className="logoImg" src={logoImg} alt="加载失败"/></a></Col>
-          <Col span={12}/>
+          <Col span={3}/>
+          <Col span={2}>Features</Col>
+          <Col span={2}>Roadmap</Col>
+          <Col span={2}>Medium</Col>
+          <Col span={5}>Docs</Col>
           <Col span={1}><a href={"https://twitter.com/shadows_defi"} target={"_blank"}><img className="twitter" src={twitter} alt="加载失败"/></a></Col>
           <Col span={1}><a href={"https://t.me/Shadows_defi"} target={"_blank"}><img className="fly" src={fly} alt="加载失败"/></a></Col>
         </Row>
       </div>
       <div className="menuMobile">
         <Row>
-          <Col span={2}/>
-          <Col span={4}><img className="logoImg" src={logoImg} alt="加载失败" /></Col>
-          <Col span={8}/>
-          <Col span={3}><img className="github" src={twitter} alt="加载失败" /></Col>
-          <Col span={3}><img className="fly" src={fly} alt="加载失败" /></Col>
+          <Col span={1}/>
+          <Col span={5}><img className="logoImg" src={logoImg} alt="加载失败" /></Col>
+          <Col span={1}/>
+          <Col span={4}>Features</Col>
+          <Col span={4}>Roadmap</Col>
+          <Col span={4}>Medium</Col>
+          <Col span={3}>Docs</Col>
         </Row>
       </div>
       <Dashboard/>

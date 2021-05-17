@@ -1,9 +1,9 @@
 .economy {
-    height: 100vh;
+    height: 1000px;
     width: 100%;
     margin-top: 200px;
     position: absolute;
-    top: 100vh;
+    top: 800px;
 }
 .economy-title {
     text-align: left;
@@ -27,11 +27,11 @@
     .economy {
         height: 70Vh;
         position: absolute;
-        top: 100vh;
+        top: 800px;
     }
     .economy-title {
         width: 100%;
-        text-align: left;
+        text-align: center;
         font-size: 28px;
         color: #FCFCFC;
         margin-left: 10px;
@@ -40,7 +40,7 @@
     .economy-text {
         font-size: 12px;
         color: #999999;
-        text-align: left;
+        text-align: center;
         margin-left: 10px;
     }
   

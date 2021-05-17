@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    top: 300vh;
+    top: 2600px;
 }
 .fleetText {
     width: 40%;
@@ -38,7 +38,7 @@
         height: 70vh;
         display: block;
         position: absolute;
-        top: 210vh;
+        top: 1600px;
     }
     .fleetText {
         width: 80%;

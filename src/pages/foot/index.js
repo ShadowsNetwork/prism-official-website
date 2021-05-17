@@ -16,9 +16,6 @@ function Foot() {
         </div>
         <div/>
       </div>
-      {/*<div className="footContentLine">*/}
-      {/*  <div/><div/><div/><div/><div/>*/}
-      {/*</div>*/}
       <div className="footContentTo">
         <div/>
         <div className="contentBox"/>

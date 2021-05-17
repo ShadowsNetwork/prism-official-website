@@ -179,7 +179,7 @@ function Workflows() {
         {/*</div>*/}
         <a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsWhitepaperV2.0General.pdf" target={"_blank"}><button className="workflowsButton"></button></a>
       </div>
-      <div className="workflowsText" data-aos="fade-left">
+      <div className="workflowsText" data-aos="fade-up">
         <div className="workflows-title">Native to your</div>
         <div className="workflows-title">existing</div>
         <div className="workflows-title">workflows</div>
