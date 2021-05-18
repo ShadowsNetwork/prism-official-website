@@ -28,7 +28,7 @@
     width: 50%;
     position: absolute;
     top: -100px;
-    right: 102px;
+    right: 0;
 }
 
 @media screen and (max-width: 900px) {

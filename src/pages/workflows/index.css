@@ -15,6 +15,7 @@
     width: 40%;
 }
 .tabContent {
+    background: black;
     margin-top: -190px !important;
     pointer-events: none;
 }
@@ -41,6 +42,7 @@
     font-size: 20px;
     line-height: 48px;
     color: #999999;
+    z-index: 4;
 }
 .tab {
     display: flex;
