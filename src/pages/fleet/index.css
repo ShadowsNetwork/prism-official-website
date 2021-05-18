@@ -4,11 +4,11 @@
     display: flex;
     align-items: center;
     position: absolute;
-    top: 2600px;
+    top: 2800px;
 }
 .fleetText {
     width: 40%;
-    margin-left: 6%;
+    margin-left: 102px;
 }
 .fleetText-title {
     font-family: 'SourceHanSansCN-Heavy';  
@@ -30,7 +30,7 @@
 .fleetImg {
     width: 70%;
     position: absolute;
-    right: 10%;
+    right: 102px;
 }
 
 @media screen and (max-width: 900px) {
@@ -38,7 +38,7 @@
         height: 70vh;
         display: block;
         position: absolute;
-        top: 1600px;
+        top: 1700px;
     }
     .fleetText {
         width: 80%;
@@ -59,6 +59,8 @@
     }
 
     .fleetImg {
-        width: 100%;   
+        width: 340px;
+        position: static;
+        margin-left: calc((100% - 340px) / 2);
     }
 }

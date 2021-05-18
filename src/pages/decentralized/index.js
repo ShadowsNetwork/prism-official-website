@@ -17,7 +17,7 @@ function Decentralized() {
       <img src={blockchain} className="blockchainBac"/>
       <img src={economy} className="economy-content-img"/>
       <div className="economyMoreBac">
-        <div className="decentralizedText"  data-aos="fade-up">
+        <div className="decentralizedText" data-aos="fade-up" >
           <div className="decentralizedText-title">
           Decentralized
           </div>

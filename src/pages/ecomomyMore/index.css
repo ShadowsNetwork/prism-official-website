@@ -1,12 +1,11 @@
 .economyMore {
     width: 100%;
     position: absolute;
-    margin-top: 500px ;
-    top:1600px;
+    top:2148px;
     display: flex;
 }
 .economyMoreImg {
-    width: 150px;
+    width: 270px;
     margin-left: 20%;
 }
 .economyMoreText {
@@ -48,7 +47,7 @@
         width: 100%;
         display: block;
         position: absolute;
-        top:750px;
+        top:1350px;
     }
     .economyMoreImg {
         width: 20%;

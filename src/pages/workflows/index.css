@@ -9,6 +9,7 @@
 }
 .react-tabs__tab-list {
     border-bottom: none !important;
+    margin: 0 0 0 -10px !important;
 }
 .react-tabs {
     width: 40%;
@@ -21,7 +22,7 @@
     width: 1400px;
     position: absolute;
     top: 250px;
-    left: 7%;
+    left: 132px;
     float: left;
 }
 .react-tabs__tab--selected {

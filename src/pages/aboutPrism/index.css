@@ -1,11 +1,11 @@
 .aboutPrism {
     height: 700px;
     position: relative;
-    margin-top: -30vh;
+    margin-top: -100px;
 }
 .prismText{
     position: absolute;
-    left: 11%;
+    left: 102px;
     top: 20%;
     width: 40%;
   
@@ -25,10 +25,10 @@
     margin-top: 34.5px;
 }
 .prismImg {
-    width: 40%;
+    width: 50%;
     position: absolute;
-    top: 4%;
-    right: 10%;
+    top: -100px;
+    right: 102px;
 }
 
 @media screen and (max-width: 900px) {
