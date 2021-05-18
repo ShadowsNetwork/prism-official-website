@@ -33,9 +33,15 @@
 .menu {
     height: 100px;
     line-height: 100px;
-    color: #fff;
+}
+.menuText {
+    color: #B3B3B3;
     font-size: 18px;
     font-family: 'SourceHanSansCN-Bold';
+}
+.menuText:hover {
+    cursor: pointer;
+    color: #fff;
 }
 .menuMobile {
     height: 80px;
@@ -73,6 +79,11 @@
         height: 80px;
         line-height: 60px;
         display: block;
+    }
+    .menuText {
+        color: #B3B3B3;
+        font-size: 12px;
+        font-family: 'SourceHanSansCN-Bold';
     }
 }
 
