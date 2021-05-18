@@ -118,12 +118,12 @@ new_filter.get_all_entries()
 \`\`\`
 `;
 
-// marked.setOptions({
-//   langPrefix: "hljs language-",
-//   highlight: function (code) {
-//     return hljs.highlightAuto(code, ["html", "javascript"]).value;
-//   }
-// });
+marked.setOptions({
+  langPrefix: "hljs language-",
+  highlight: function (code) {
+    return hljs.highlightAuto(code, ["html", "javascript"]).value;
+  }
+});
 
 function Workflows() {
 

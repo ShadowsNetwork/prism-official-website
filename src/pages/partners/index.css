@@ -22,10 +22,11 @@
 .box {
     width: 1285px;
     margin-left: calc((100% - 1285px) / 2);
+    border-top: 1px solid #555454;
+    border-bottom: 1px solid #555454;
     box-sizing: border-box;
     background:black;
-    padding: 8px;
-    border-radius: 8px;
+    padding: 33px;
     margin-top: 73px;
 
 }
@@ -33,7 +34,6 @@
     width: 100%;
     border-radius: 8px;
     background: black;
-    padding-top: 3%;
 }
 .partnersContent-box {
     width: 94%;
@@ -112,15 +112,12 @@
         width: 360px;
         margin-left: calc((100% - 360px) / 2);
         box-sizing: border-box;
-        
         padding: 4px;
-        border-radius: 4px;
         margin-top: 20px;
     }
     .partnersContent-box {
         width: 94%;
         margin-left: 3%;
-        border-radius: 6px;
         padding: 5px 0 0 0;
     }
     .partnersOne {

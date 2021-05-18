@@ -4,7 +4,7 @@
     background-image: url(../../image/workflows/workflowslight.png);
     background-repeat: no-repeat;
     background-size: 50% 40%;
-    background-position: center center;
+    background-position: 35% center;
     position: relative;
 }
 .react-tabs__tab-list {
@@ -70,7 +70,10 @@
     width: 90%;
     overflow-y: scroll;
 }
-/* 设置滚动条的样式 */
+.hljs {
+    background: none !important;
+}
+    /* 设置滚动条的样式 */
 ::-webkit-scrollbar {
     width:4px;
     height: 4px;
