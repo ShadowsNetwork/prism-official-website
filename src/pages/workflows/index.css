@@ -1,10 +1,10 @@
 .workflows {
-    height: 100vh;
+    height: 930px;
     background: black;
     background-image: url(../../image/workflows/workflowslight.png);
     background-repeat: no-repeat;
     background-size: 50% 40%;
-    background-position: 35% center;
+    background-position: center center;
     position: relative;
 }
 .react-tabs__tab-list {
@@ -20,14 +20,14 @@
     pointer-events: none;
 }
 .workflowsImg {
-    width: 1400px;
+    width: calc(100% - 132px);
     position: absolute;
     top: 250px;
     left: 132px;
     float: left;
 }
 .react-tabs__tab--selected {
-    width: 21%;
+    width: 250px;
     background: none !important;
     border: none !important;
     color: #0000FF !important;
@@ -37,7 +37,7 @@
 }
 .react-tabs__tab {
     text-align: center;
-    width: 21%;
+    width: 126px;
     /* background: url(../../image/workflows/tabUnclick.png) no-repeat !important; */
     font-size: 20px;
     line-height: 48px;
@@ -48,7 +48,7 @@
     display: flex;
 }
 .tabContent {
-    width: 105%;
+    width: 620px;
     margin-top: -10px;
     z-index: 999;
 }
@@ -57,10 +57,10 @@
     
 }
 .tabContentText {
-    width: 76%;
+    width: 470px;
     height: 94%;
     position: absolute;
-    top: 3%;
+    top: 6%;
     left: 8%;
     font-size: 18px;
     color: #999999;
@@ -164,7 +164,7 @@
     border-bottom: 1px solid #a5a3a3;
     opacity: 30%;
     position: absolute;
-    bottom:-73px;
+    bottom:0;
 }
 @media screen and (max-width: 900px) {
     .workflows {

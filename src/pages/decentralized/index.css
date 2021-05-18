@@ -18,7 +18,7 @@
     top: 800px;
 }
 .decentralizedText {
-    width: 100%;
+    width: calc(100 - 102px);
     margin-left: 102px;
     margin-top: -200px;
     padding-left: 38px;

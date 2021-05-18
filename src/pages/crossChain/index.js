@@ -1,5 +1,5 @@
 import './index.css'
-import {RightCircleOutlined} from '@ant-design/icons'
+import crosschainImg from '../../image/crossChain/crosschainImg.png'
 
 function CrossChain() {
   return(
@@ -23,6 +23,7 @@ function CrossChain() {
           </div>
         </a>
       </div>
+      <img className="crossChainImg" src={crosschainImg} data-aos="fade-in"/>
     </div>
   )
 }

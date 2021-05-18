@@ -10,8 +10,8 @@
 }
 .economyMoreText {
     text-align: right;
-    position: relative;
-    margin-left: 20%;
+    position: absolute;
+    right: 102px;
 
 }
 .economyMore-title {

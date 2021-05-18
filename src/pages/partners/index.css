@@ -1,6 +1,6 @@
 .partners {
     padding-bottom: 100px;
-    margin-top: 331px;
+    margin-top: 181px;
 }
 .partners-title {
     width: 100%;
@@ -20,8 +20,8 @@
     margin-top: 34px;
 }
 .box {
-    width: 1285px;
-    margin-left: calc((100% - 1285px) / 2);
+    width: 90%;
+    margin-left: 5%;
     border-top: 1px solid #555454;
     border-bottom: 1px solid #555454;
     box-sizing: border-box;

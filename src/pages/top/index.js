@@ -17,6 +17,7 @@ function Top() {
           <a href={"https://github.com/ShadowsNetwork/whitepaper/blob/main/ShadowsWhitepaperV2.0General.pdf"} target={"_blank"}><div className="topButton"></div></a>
         </div>
       </div>
+      <div className="top-foot" />
       <AboutPrism/>
     </div>
   )
