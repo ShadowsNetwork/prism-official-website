@@ -185,14 +185,11 @@ function Workflows() {
         <div className="workflows-title">workflows</div>
         <div className="workflowsText-text">
           <div>
-          SKALE Network eliminates unnecessary complexity so that you
-          can speed up your dApps and smart contracts in no time with 
-          essentially no additional coding.
-          </div>
-          <div>
-          Use your existing deployment script (for example — truffle, as in
-          this code sample) and just change 2 lines of code to deploy your 
-          solidity smart contracts to a configurable decentralized elastic sidechain.
+            Prism is fully compatible with Ethereum. Prism EVM
+            RPC is a protocol layer that supports all tools of
+            the Ethernet ecosystem, such as MetaMask, Web3js,
+            Etherjs, Truffle, Hardhat, etc. One can deploy DApps
+            and smart contracts immediately without additional coding.
           </div>
           {/*<div>*/}
           {/*Prism EVM RPC is a protocol layer that supports all tools of the Ethernet ecosystem, such as MetaMask, Web3js, Etherjs, Truffle, Hardhat, etc. Thus deploying existing Dapps on Prism Network is very easy. */}

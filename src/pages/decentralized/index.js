@@ -19,12 +19,10 @@ function Decentralized() {
       <div className="economyMoreBac">
         <div className="decentralizedText" data-aos="fade-up" >
           <div className="decentralizedText-title">
-          Decentralized
+            The Prism Core
           </div>
           <div className="decentralizedText-text">
-          Elastic blockchains are highly performant, decentralized, configurable,
-          Ethereum compatible, and use the latest breakthroughs in modern cryptography
-          to provide provable security.
+            Prism is an ideal infrastructure to deploy DeFi applications upon.
           </div>
           <a href="https://github.com/ShadowsNetwork/whitepaper/blob/main/DOWSTokenomics.pdf" target={"_blank"}>
             <button className="decentralizedButton"></button>

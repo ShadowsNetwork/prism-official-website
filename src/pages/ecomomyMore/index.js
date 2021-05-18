@@ -7,7 +7,7 @@ function EconomyMore() {
       <img className="economyMoreImg" src={economyMore} data-aos="fade-up"/>
       <div className="economyMoreText" data-aos="fade-up">
         <div className="economyMore-title">
-          Web3 Blockchain
+            Web3.0 Blockchain
         </div>
         <div className="economyMore-title">
          Economy
